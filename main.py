@@ -66,7 +66,7 @@ class Course():
     def listCourseInfo(self):
         schedule = self.getCourseSchedule()['data']['score_detail'][0]['schedule']
         cname = self.cname
-        print(f'Course: {cname}     Progress: {schedule}')
+        print(f'Course: {cname}     Progress: {schedule}%')
 
     def getUncommitedProblems(self):
 
