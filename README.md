@@ -48,12 +48,12 @@ https://next.xuetangx.com/learn/NUDT12041000081/NUDT12041000081/1510792/
 
 如下操作打开`Filter` 并选中`XHR`类型
 
-![README](README.png)
+![README](https://raw.githubusercontent.com/BakaFT/XuetangX-AutoAnswering/master/README.png)
 
 然后刷新页面，等待加载完毕。
 
 寻找任意一条，如图所示，在`Headers`属性卡里包含`x-csrftoken`的请求
 
-![README2](README2.png)
+![README2](https://raw.githubusercontent.com/BakaFT/XuetangX-AutoAnswering/master/README2.png)
 
 右键这条请求，依次选择`Copy` - `Copy as cURL(bash)`，程序要求输入cURL时，直接粘贴即可。
