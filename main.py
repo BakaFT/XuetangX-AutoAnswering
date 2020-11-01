@@ -3,7 +3,7 @@ import uncurl
 import time
 import json
 
-courses_dicts = [] #a temp list to store course_info dicts
+courses_dicts = [] #a list to store course_info dicts
 leaf_dicts = [] 
 
 def getProfile():
